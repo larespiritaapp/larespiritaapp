@@ -1,1 +1,22 @@
-
+{
+  "id": "evangelho-segundo-espiritismo",
+  "titulo": "O Evangelho Segundo o Espiritismo",
+  "autor": "Allan Kardec",
+  "ano": 1864,
+  "capitulos": [
+    {
+      "numero": 1,
+      "titulo": "Jesus Cristo é o Cristo",
+      "paragrafos": [
+        "TEXTO A INSERIR — este é um capítulo de exemplo para validar o layout. Substitua pelo texto integral do capítulo 1, disponível em domínio público."
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Meu reino não é deste mundo",
+      "paragrafos": [
+        "TEXTO A INSERIR — capítulo de exemplo. Substitua pelo texto integral do capítulo 2."
+      ]
+    }
+  ]
+}

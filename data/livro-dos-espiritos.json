@@ -1,0 +1,38 @@
+{
+  "id": "livro-dos-espiritos",
+  "titulo": "O Livro dos Espíritos",
+  "autor": "Allan Kardec",
+  "ano": 1857,
+  "capitulos": [
+    {
+      "numero": 1,
+      "titulo": "Deus",
+      "questoes": [
+        {
+          "numero": 1,
+          "pergunta": "O que é Deus?",
+          "resposta": "Deus é a inteligência suprema, causa primária de todas as coisas.",
+          "comentario": "Kardec observa que a definição intelectual de Deus permanece incompleta diante da limitada natureza humana; ainda assim, a razão e a observação da ordem do universo bastam para afastar o materialismo."
+        },
+        {
+          "numero": 4,
+          "pergunta": "De que modo se pode provar a existência de Deus?",
+          "resposta": "Pelo axioma que se aplica a todas as coisas: não há efeito sem causa. Procurai a causa daquilo que não é obra do homem e a razão vos dará resposta.",
+          "comentario": ""
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Elementos gerais do Universo",
+      "questoes": [
+        {
+          "numero": 27,
+          "pergunta": "O que se deve entender por matéria?",
+          "resposta": "A matéria é o liame que prende o espírito, o instrumento de que ele se serve e sobre o qual, ao mesmo tempo, ele atua.",
+          "comentario": ""
+        }
+      ]
+    }
+  ]
+}
