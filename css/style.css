@@ -1,1 +1,334 @@
+:root {
+  /* Paleta: noite de reunião (índigo profundo) + luz de vela (âmbar) + papel antigo (pergaminho) */
+  --ink-night: #12213B;
+  --ink-night-deep: #0B1526;
+  --candle-gold: #E3A94C;
+  --candle-gold-soft: #F0C97D;
+  --parchment: #F6EFE1;
+  --parchment-dim: #EAE0CC;
+  --sage: #6E8F72;
+  --text-main: #1D2430;
+  --text-soft: #5B6472;
+  --text-inverse: #F6EFE1;
+  --danger: #B0503D;
 
+  --radius: 14px;
+  --shadow-soft: 0 8px 24px rgba(18, 33, 59, 0.12);
+
+  --font-display: "Fraunces", "Iowan Old Style", serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: local("Fraunces");
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--parchment);
+  color: var(--text-main);
+  font-family: var(--font-body);
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* ---------- Cabeçalho ---------- */
+
+header.app-header {
+  background: linear-gradient(180deg, var(--ink-night) 0%, var(--ink-night-deep) 100%);
+  color: var(--text-inverse);
+  padding: 22px 20px 26px;
+  position: relative;
+  overflow: hidden;
+}
+
+header.app-header::after {
+  /* glow de vela — elemento assinatura */
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  right: -60px;
+  top: -90px;
+  background: radial-gradient(circle, rgba(227, 169, 76, 0.35) 0%, rgba(227, 169, 76, 0) 70%);
+  pointer-events: none;
+}
+
+header.app-header h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+
+header.app-header p {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  color: rgba(246, 239, 225, 0.72);
+}
+
+/* ---------- Conteúdo ---------- */
+
+main {
+  flex: 1;
+  padding: 20px 18px 100px;
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.view { display: none; }
+.view.active { display: block; animation: fade-in 0.25s ease; }
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.section-eyebrow {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  color: var(--sage);
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  margin: 0 0 14px;
+  color: var(--ink-night);
+}
+
+/* ---------- Cartão do Evangelho no Lar ---------- */
+
+.meet-card {
+  background: linear-gradient(155deg, var(--ink-night) 0%, var(--ink-night-deep) 100%);
+  border-radius: var(--radius);
+  padding: 24px 22px;
+  color: var(--text-inverse);
+  box-shadow: var(--shadow-soft);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.meet-card::before {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: -50px;
+  bottom: -60px;
+  background: radial-gradient(circle, rgba(227, 169, 76, 0.28) 0%, rgba(227, 169, 76, 0) 70%);
+}
+
+.meet-card h2 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.meet-card p {
+  margin: 0 0 18px;
+  font-size: 0.88rem;
+  color: rgba(246, 239, 225, 0.75);
+  line-height: 1.5;
+}
+
+.btn-enter {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--candle-gold);
+  color: var(--ink-night-deep);
+  font-weight: 700;
+  font-size: 0.92rem;
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.btn-enter:hover { background: var(--candle-gold-soft); transform: translateY(-1px); }
+.btn-enter:active { transform: translateY(0); }
+
+/* ---------- Cartões de livro ---------- */
+
+.book-grid {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.book-card {
+  background: #fff;
+  border: 1px solid var(--parchment-dim);
+  border-radius: var(--radius);
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.book-card:hover { border-color: var(--candle-gold); transform: translateY(-1px); }
+
+.book-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  margin: 0 0 4px;
+  color: var(--ink-night);
+}
+
+.book-card span.meta {
+  font-size: 0.78rem;
+  color: var(--text-soft);
+}
+
+.progress-pill {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--sage);
+  background: rgba(110, 143, 114, 0.12);
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* ---------- Lista de capítulos ---------- */
+
+.chapter-list { display: grid; gap: 10px; }
+
+.chapter-item {
+  background: #fff;
+  border: 1px solid var(--parchment-dim);
+  border-radius: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chapter-item:hover { border-color: var(--candle-gold); }
+
+.chapter-item .num {
+  font-family: var(--font-display);
+  color: var(--candle-gold);
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-soft);
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+/* ---------- Leitura ---------- */
+
+.reading-block {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 14px;
+  border: 1px solid var(--parchment-dim);
+}
+
+.reading-block .question {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--ink-night);
+  margin: 0 0 10px;
+  line-height: 1.45;
+}
+
+.reading-block .answer {
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: var(--text-main);
+}
+
+.reading-block .comment {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--parchment-dim);
+  font-size: 0.86rem;
+  color: var(--text-soft);
+  font-style: italic;
+}
+
+.reading-block .paragraph {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-main);
+  margin: 0 0 12px;
+}
+
+/* ---------- Navegação inferior ---------- */
+
+nav.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid var(--parchment-dim);
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0 calc(8px + env(safe-area-inset-bottom));
+  z-index: 10;
+}
+
+nav.tab-bar button {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  color: var(--text-soft);
+  font-size: 0.68rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+
+nav.tab-bar button.active { color: var(--candle-gold); }
+nav.tab-bar button svg { width: 22px; height: 22px; }
+
+/* ---------- Utilitários ---------- */
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-soft);
+  font-size: 0.9rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .view.active { animation: none; }
+}
