@@ -134,7 +134,9 @@ header.app-header {
 .header-logo {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 1024 / 860;
+  object-fit: cover;
+  object-position: center 53%;
   position: relative;
   z-index: 1;
   filter: drop-shadow(0 2px 18px rgba(199, 154, 69, 0.35));
