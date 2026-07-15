@@ -240,9 +240,135 @@
       "titulo": "Da criação",
       "questoes": [
         {
-          "numero": 0,
-          "pergunta": "Aguardando conteúdo",
-          "resposta": "TEXTO A INSERIR — capítulo aguardando o conteúdo integral. Substitua pelas perguntas e respostas originais, a partir de uma fonte à qual você tenha direito de uso.",
+          "numero": 37,
+          "pergunta": "O universo foi criado, ou existe desde toda a eternidade, como Deus?",
+          "resposta": "Sem dúvida, ele não pôde formar-se sozinho, e se existisse desde toda a eternidade, como Deus, não poderia ser obra de Deus.",
+          "comentario": ""
+        },
+        {
+          "numero": 38,
+          "pergunta": "Como Deus criou o universo?",
+          "resposta": "Para usar uma expressão: por sua Vontade. Nada retrata melhor essa vontade toda-poderosa do que estas belas palavras do Gênesis: Deus disse: Que a luz seja, e a luz foi.",
+          "comentario": ""
+        },
+        {
+          "numero": 39,
+          "pergunta": "Podemos conhecer o modo de formação dos mundos?",
+          "resposta": "Tudo o que se pode dizer, e o que vocês podem compreender, é que os mundos se formam pela condensação da matéria disseminada no espaço.",
+          "comentario": ""
+        },
+        {
+          "numero": 40,
+          "pergunta": "Os cometas seriam, como se pensa hoje, um começo de condensação da matéria — mundos em vias de formação?",
+          "resposta": "Isso é exato; mas o que é absurdo é crer em sua influência — refiro-me a essa influência que vulgarmente se lhes atribui, pois todos os corpos celestes têm sua parte de influência em certos fenômenos físicos.",
+          "comentario": ""
+        },
+        {
+          "numero": 41,
+          "pergunta": "Um mundo já formado pode desaparecer, e a matéria que o compõe voltar a se dispersar no espaço?",
+          "resposta": "Sim; Deus renova os mundos como renova os seres vivos.",
+          "comentario": ""
+        },
+        {
+          "numero": 42,
+          "pergunta": "Podemos conhecer a duração da formação dos mundos, da Terra, por exemplo?",
+          "resposta": "Não posso dizer-lhes, pois só o Criador o sabe; e bem tolo seria quem pretendesse sabê-lo ou conhecer o número de séculos dessa formação.",
+          "comentario": ""
+        },
+        {
+          "numero": 43,
+          "pergunta": "Quando a Terra começou a ser povoada?",
+          "resposta": "No começo, tudo era caos; os elementos estavam confundidos. Pouco a pouco cada coisa tomou seu lugar; então surgiram os seres vivos apropriados ao estado do globo.",
+          "comentario": ""
+        },
+        {
+          "numero": 44,
+          "pergunta": "De onde vieram os seres vivos na Terra?",
+          "resposta": "A Terra continha os germes que esperavam o momento favorável para se desenvolver. Os princípios orgânicos se reuniram assim que cessou a força que os mantinha afastados, e formaram os germes de todos os seres vivos, que permaneceram em estado latente e inerte, como a crisálida e as sementes das plantas, até o momento propício para a eclosão de cada espécie.",
+          "comentario": ""
+        },
+        {
+          "numero": 45,
+          "pergunta": "Onde estavam os elementos orgânicos antes da formação da Terra?",
+          "resposta": "Encontravam-se, por assim dizer, em estado de fluido no espaço, no meio dos Espíritos, ou em outros planetas, esperando a criação da Terra para começar uma nova existência num globo novo.",
+          "comentario": ""
+        },
+        {
+          "numero": 46,
+          "pergunta": "Ainda hoje há seres que nascem espontaneamente?",
+          "resposta": "Sim, mas o germe primitivo já existia em estado latente. Vocês são testemunhas disso todos os dias: os tecidos do homem e dos animais não contêm os germes de uma multidão de vermes, que esperam para eclodir a fermentação pútrida necessária à sua existência? É um pequeno mundo que dorme e que se cria.",
+          "comentario": ""
+        },
+        {
+          "numero": 47,
+          "pergunta": "A espécie humana se encontrava entre os elementos orgânicos contidos no globo terrestre?",
+          "resposta": "Sim, e ela veio a seu tempo; foi isso que fez dizer que o homem havia sido formado do limo da terra.",
+          "comentario": ""
+        },
+        {
+          "numero": 48,
+          "pergunta": "Podemos conhecer a época do surgimento do homem e dos demais seres vivos na Terra?",
+          "resposta": "Não; todos os seus cálculos são fantasias.",
+          "comentario": ""
+        },
+        {
+          "numero": 49,
+          "pergunta": "Se o germe da espécie humana se encontrava entre os elementos orgânicos do globo, por que não se formam espontaneamente homens hoje, como em sua origem?",
+          "resposta": "O princípio das coisas está nos segredos de Deus; pode-se dizer, porém, que os homens, uma vez espalhados pela Terra, absorveram em si os elementos necessários à sua formação, para transmiti-los segundo as leis da reprodução. O mesmo se dá com as diferentes espécies de seres vivos.",
+          "comentario": ""
+        },
+        {
+          "numero": 50,
+          "pergunta": "A espécie humana começou por um único homem?",
+          "resposta": "Não; aquele a quem vocês chamam Adão não foi nem o primeiro, nem o único a povoar a Terra.",
+          "comentario": ""
+        },
+        {
+          "numero": 51,
+          "pergunta": "Podemos saber em que época viveu Adão?",
+          "resposta": "Aproximadamente aquela que lhe atribuem: cerca de quatro mil anos antes de Cristo.",
+          "comentario": ""
+        },
+        {
+          "numero": 52,
+          "pergunta": "De onde vêm as diferenças físicas e morais que distinguem as variedades de raças humanas na Terra?",
+          "resposta": "Do clima, do modo de vida e dos hábitos. O mesmo ocorre com duas crianças da mesma mãe que, criadas longe uma da outra e de modo diferente, em nada se assemelharão moralmente.",
+          "comentario": ""
+        },
+        {
+          "numero": 53,
+          "pergunta": "O homem surgiu em vários pontos do globo?",
+          "resposta": "Sim, e em diversas épocas; essa é uma das causas da diversidade das raças. Depois, os homens, dispersando-se por diferentes climas e se unindo a outras raças, formaram novos tipos.",
+          "comentario": "Pergunta seguinte: Essas diferenças constituem espécies distintas? — Certamente não; todos são da mesma família: as diferentes variedades de um mesmo fruto o impedem de pertencer à mesma espécie?"
+        },
+        {
+          "numero": 54,
+          "pergunta": "Se a espécie humana não procede de um só homem, devem os homens deixar de se considerar irmãos por isso?",
+          "resposta": "Todos os homens são irmãos em Deus, porque são animados pelo espírito e tendem ao mesmo fim. Vocês sempre querem tomar as palavras ao pé da letra.",
+          "comentario": ""
+        },
+        {
+          "numero": 55,
+          "pergunta": "Todos os globos que giram no espaço são habitados?",
+          "resposta": "Sim, e o homem da Terra está longe de ser, como pensa, o primeiro em inteligência, bondade e perfeição. Há, porém, homens que se creem muito fortes e imaginam que este pequeno globo tem o privilégio exclusivo de possuir seres racionais. Orgulho e vaidade! Eles pensam que Deus criou o universo só para eles.",
+          "comentario": ""
+        },
+        {
+          "numero": 56,
+          "pergunta": "A constituição física dos diferentes globos é a mesma?",
+          "resposta": "Não; eles não se assemelham em nada.",
+          "comentario": ""
+        },
+        {
+          "numero": 57,
+          "pergunta": "Não sendo a mesma a constituição física dos mundos, isso implica uma organização diferente para os seres que os habitam?",
+          "resposta": "Sem dúvida, assim como entre vocês os peixes são feitos para viver na água, e os pássaros no ar.",
+          "comentario": ""
+        },
+        {
+          "numero": 58,
+          "pergunta": "Os mundos mais distantes do Sol são privados de luz e calor, já que o Sol para eles se mostra apenas como uma estrela?",
+          "resposta": "Vocês acham que não há outras fontes de luz e calor além do Sol? E não contam com a eletricidade, que em certos mundos desempenha um papel desconhecido de vocês, e muito mais importante do que na Terra? Além disso, não está dito que todos os seres sejam feitos da mesma matéria que vocês, com órgãos conformados como os seus.",
           "comentario": ""
         }
       ]
@@ -253,10 +379,100 @@
       "titulo": "Do princípio vital",
       "questoes": [
         {
-          "numero": 0,
-          "pergunta": "Aguardando conteúdo",
-          "resposta": "TEXTO A INSERIR — capítulo aguardando o conteúdo integral. Substitua pelas perguntas e respostas originais, a partir de uma fonte à qual você tenha direito de uso.",
+          "numero": 60,
+          "pergunta": "É a mesma força que une os elementos da matéria nos corpos orgânicos e nos corpos inorgânicos?",
+          "resposta": "Sim; a lei de atração é a mesma para todos.",
           "comentario": ""
+        },
+        {
+          "numero": 61,
+          "pergunta": "Há diferença entre a matéria dos corpos orgânicos e a dos corpos inorgânicos?",
+          "resposta": "É sempre a mesma matéria, mas nos corpos orgânicos ela é animalizada.",
+          "comentario": ""
+        },
+        {
+          "numero": 62,
+          "pergunta": "Qual é a causa da animalização da matéria?",
+          "resposta": "Sua união com o princípio vital.",
+          "comentario": ""
+        },
+        {
+          "numero": 63,
+          "pergunta": "O princípio vital reside num agente particular, ou é apenas uma propriedade da matéria organizada — em suma, é um efeito ou uma causa?",
+          "resposta": "É uma coisa e outra. A vida é um efeito produzido pela ação de um agente sobre a matéria; esse agente, sem a matéria, não é a vida, assim como a matéria não pode viver sem esse agente. Ele dá vida a todos os seres que o absorvem e o assimilam.",
+          "comentario": ""
+        },
+        {
+          "numero": 64,
+          "pergunta": "Vimos que o espírito e a matéria são dois elementos constitutivos do universo; o princípio vital forma um terceiro?",
+          "resposta": "É, sem dúvida, um dos elementos necessários à constituição do universo, mas tem, ele próprio, sua fonte na matéria universal modificada; é um elemento para vocês, como o oxigênio e o hidrogênio, que também não são elementos primitivos, pois tudo isso parte de um mesmo princípio.",
+          "comentario": ""
+        },
+        {
+          "numero": 65,
+          "pergunta": "O princípio vital reside em algum dos corpos que conhecemos?",
+          "resposta": "Tem sua fonte no fluido universal; é o que vocês chamam de fluido magnético ou fluido elétrico animalizado. Ele é o intermediário, o elo entre o espírito e a matéria.",
+          "comentario": ""
+        },
+        {
+          "numero": 66,
+          "pergunta": "O princípio vital é o mesmo para todos os seres orgânicos?",
+          "resposta": "Sim, modificado conforme as espécies. É o que lhes dá o movimento e a atividade, distinguindo-os da matéria inerte; pois o movimento da matéria não é a vida — ela recebe esse movimento, não o dá.",
+          "comentario": ""
+        },
+        {
+          "numero": 67,
+          "pergunta": "A vitalidade é um atributo permanente do agente vital, ou só se desenvolve pelo funcionamento dos órgãos?",
+          "resposta": "Ela só se desenvolve com o corpo. Não dissemos que esse agente, sem a matéria, não é a vida? É necessária a união das duas coisas para produzir a vida.",
+          "comentario": "Pergunta seguinte: Pode-se dizer que a vitalidade está em estado latente quando o agente vital não está unido ao corpo? — Sim, é isso."
+        },
+        {
+          "numero": 68,
+          "pergunta": "Qual é a causa da morte nos seres orgânicos?",
+          "resposta": "O esgotamento dos órgãos. Sim: se a máquina está mal montada, a mola quebra; se o corpo está doente, a vida se vai.",
+          "comentario": ""
+        },
+        {
+          "numero": 69,
+          "pergunta": "Por que uma lesão do coração, mais do que a de outros órgãos, causa a morte?",
+          "resposta": "O coração é uma máquina de vida; mas não é o único órgão cuja lesão ocasiona a morte — é apenas uma das engrenagens essenciais.",
+          "comentario": ""
+        },
+        {
+          "numero": 70,
+          "pergunta": "O que se tornam a matéria e o princípio vital dos seres orgânicos, ao morrerem?",
+          "resposta": "A matéria inerte se decompõe e forma novos corpos; o princípio vital retorna à massa geral.",
+          "comentario": ""
+        },
+        {
+          "numero": 71,
+          "pergunta": "A inteligência é um atributo do princípio vital?",
+          "resposta": "Não, pois as plantas vivem e não pensam: elas só têm a vida orgânica. A inteligência e a matéria são independentes, já que um corpo pode viver sem inteligência; mas a inteligência só pode se manifestar por meio dos órgãos materiais — é preciso a união do espírito para dar inteligência à matéria animalizada.",
+          "comentario": ""
+        },
+        {
+          "numero": 72,
+          "pergunta": "Qual é a fonte da inteligência?",
+          "resposta": "Já dissemos: a inteligência universal. Isto é apenas uma comparação, e não exata, porque a inteligência é uma faculdade própria de cada ser, e constitui sua individualidade moral. Aliás, vocês sabem: há coisas que não é dado ao homem penetrar, e esta é uma delas, por ora.",
+          "comentario": ""
+        },
+        {
+          "numero": 73,
+          "pergunta": "O instinto é independente da inteligência?",
+          "resposta": "Não, propriamente, pois é uma espécie de inteligência. O instinto é uma inteligência não raciocinada; é por ele que todos os seres provêm às suas necessidades.",
+          "comentario": ""
+        },
+        {
+          "numero": 74,
+          "pergunta": "Pode-se traçar um limite entre o instinto e a inteligência — ou seja, precisar onde um termina e o outro começa?",
+          "resposta": "Não, pois eles frequentemente se confundem; mas pode-se distinguir muito bem os atos que pertencem ao instinto dos que pertencem à inteligência.",
+          "comentario": ""
+        },
+        {
+          "numero": 75,
+          "pergunta": "É correto dizer que as faculdades instintivas diminuem à medida que crescem as faculdades intelectuais?",
+          "resposta": "Não; o instinto sempre existe, mas o homem o negligencia. O instinto também pode conduzir ao bem; ele nos guia quase sempre, e às vezes com mais segurança do que a razão — ele nunca se perde.",
+          "comentario": "Pergunta seguinte: Por que a razão nem sempre é um guia infalível? — Ela seria infalível se não fosse desvirtuada pela má educação, pelo orgulho e pelo egoísmo. O instinto não raciocina; a razão deixa a escolha e dá ao homem o livre-arbítrio."
         }
       ]
     },
